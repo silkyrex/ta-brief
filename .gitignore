@@ -1,0 +1,6 @@
+.env
+ta_brief.db
+briefings/
+__pycache__/
+*.pyc
+.DS_Store
