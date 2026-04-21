@@ -1,8 +1,12 @@
 # TA Brief
 
-Daily technical analysis briefing pipeline from **Notion -> SQLite -> Claude -> markdown brief**.
+Turn your Notion TA research into a structured daily briefing — delivered by Claude, ready before the open.
 
-This project pulls new research pages from a Notion database, stores them locally, and turns them into a single daily brief with recent-history context.
+Write your setups and observations in Notion throughout the week. TA Brief pulls them, synthesizes across all your notes, and generates a single dated markdown brief with full context from recent history. No copy-pasting, no reformatting — your research becomes actionable intelligence.
+
+Built for traders who document their process in Notion and want synthesis speed, not another dashboard.
+
+**Stack:** Notion -> SQLite -> Claude -> markdown brief
 
 ## What it does
 - Syncs new pages from a Notion database into `ta_brief.db`
